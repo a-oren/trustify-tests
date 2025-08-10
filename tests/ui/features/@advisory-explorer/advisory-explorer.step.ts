@@ -73,7 +73,7 @@ Then(
 );
 
 Then(
-  "User visits Vulnerability details Page of {string} by clicking it",
+  "User visits Vulnerability details Page of {string} by clicking on it",
   async ({ page }, vulnerabilityID) => {
     const link = page.getByRole("link", { name: vulnerabilityID });
 
